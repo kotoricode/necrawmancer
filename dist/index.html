@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Necrawmancer</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <div id="content" class="resolution">
+            <canvas id="canvas" class="resolution" width="1280" height="720"></canvas>
+            <div id="start" class="resolution display-none">&#x25b6;</div>
+            <div id="static-ui" class="display-none">
+                <div id="resource">
+                    <div id="resource-wood" class="resource">
+                        <img src="./image/wood.png">
+                        Wood &times;
+                        <div>0</div>
+                    </div>
+                    <div id="resource-rock" class="resource">
+                        <img src="./image/rock.png">
+                        Rock &times;
+                        <div>0</div>
+                    </div>
+                    <div id="resource-iron" class="resource">
+                        <img src="./image/iron.png">
+                        Iron &times;
+                        <div>0</div>
+                    </div>
+                </div>
+                <div id="summon">
+                    <input id="summon-treant" type="button" value="Summon treant" disabled>
+                    <input id="summon-golem" type="button" value="Summon golem" disabled>
+                    <input id="summon-titan" type="button" value="Summon titan" disabled>
+                </div>
+            </div>
+            <div id="ui"></div>
+        </div>
+    </body>
+</html>
